@@ -6,14 +6,9 @@ Poniżej moja baza w której wykorzystałem część danych na których pracuję
 
 ![graf bazy](baza1.png)
 
-Poniżej przykładowe polecenia tworzące elementy bazy
+Polecenia tworzące elementy bazy i relacje
+------------------------------------------
 
-CREATE (M2_06:Proba {stacja:'M2', zebrane:'04.07.2006', warstwa:'10-0m'})
-CREATE (Pn:takson {name:'Pseudocalanus', stadium:'N'})
-
-Oraz relacje
-
-CREATE (Ac1)-[:WYSTEPOWAL {licz:[607]}]->(M2_06)
 ```
 CREATE (M2_06:Proba {stacja:'M2', zebrane:'04.07.2006', warstwa:'10-0m'})
 CREATE (Ac1:takson {name:'Acartia', stadium:'C1'})
